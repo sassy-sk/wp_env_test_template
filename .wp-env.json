@@ -1,0 +1,37 @@
+{
+  "core": "https://ja.wordpress.org/wordpress-latest-ja.zip",
+  "phpVersion": "latest",
+  "themes": [],
+  "port": 10020,
+  "env": {
+    "tests": {
+      "port": 10021
+    }
+  },
+  "config": {
+    "WP_DEBUG": true
+  },
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/advanced-custom-fields.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/wp-multibyte-patch.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/query-monitor.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/custom-post-type-ui.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/breadcrumb-navxt.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/contact-form-7.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/admin-bar-position.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/seo-simple-pack.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/wpvivid-backuprestore.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/flamingo.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/ewww-image-optimizer.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/duplicate-post.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/google-sitemap-generator.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/create-block-theme.latest-stable.zip"
+  ],
+  "mappings": {
+    "wp-content/themes/": "./wp/wp-content/themes/",
+    "wp-content/plugins/": "./wp/wp-content/plugins/",
+    "wp-content/uploads/": "./wp/wp-content/uploads/",
+    "sql": "./wp/sql"
+  }
+}
