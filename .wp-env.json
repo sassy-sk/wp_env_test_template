@@ -1,6 +1,6 @@
 {
   "core": "https://ja.wordpress.org/wordpress-latest-ja.zip",
-  "phpVersion": "latest",
+  "phpVersion": "8.0",
   "themes": [],
   "port": 10020,
   "env": {
